@@ -255,6 +255,46 @@ form button {
   margin-bottom: 5px;
 }
 
+/* -------------------- FOOTER --------------------*/
+
+footer {
+  background-color: var(--main-bg-color);
+  display: flex;
+  margin-top: 50px;
+  padding: 15px 0 0 0;
+}
+
+/* -------------------- listes */
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin: 5px 0;
+}
+
+footer p {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.apropos {
+  margin: 0 100px 0 15px;
+}
+
+.apropos li {
+}
+
+.noshebergements {
+  margin-right: 100px;
+}
+
+.assistance {
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
