@@ -210,6 +210,37 @@ form button {
   width: 65%;
 }
 
+.hebergements__cartes .card {
+  margin-top: 33px;
+  width: 39%;
+}
+
+.hebergements__cartes img {
+  width: 100%;
+  height: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hebergements__cartes .card-content {
+  width: 67%;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.hebergements__cartes .card-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.hebergements__cartes .card-subtitle {
+  margin: 0;
+}
+
+.hebergements__cartes .card-rating {
+  margin-bottom: 5px;
+}
+
 /****** Populaires ***********/
 .populaires {
   width: 32%;
