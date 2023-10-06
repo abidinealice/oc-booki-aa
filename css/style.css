@@ -296,9 +296,10 @@ form button {
 
 footer {
   background-color: var(--main-bg-color);
-  display: flex;
-  margin-top: 50px;
-  padding: 15px 0 0 0;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 15px;
 }
 
 /* -------------------- listes */
@@ -310,26 +311,16 @@ footer ul {
 }
 
 footer li {
-  margin: 5px 0;
+  margin-top: 8px;
 }
 
 footer p {
-  margin: 0 0 5px 0;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
 .apropos {
-  margin: 0 100px 0 15px;
-}
-
-.apropos li {
-}
-
-.noshebergements {
-  margin-right: 100px;
-}
-
-.assistance {
+  margin-left: 15px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
