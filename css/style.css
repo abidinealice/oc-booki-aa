@@ -247,6 +247,10 @@ form button {
   margin-bottom: 5px;
 }
 
+.hebergements__cartes p {
+  font-weight: bold;
+}
+
 /****** Populaires ***********/
 .populaires {
   width: 32%;
