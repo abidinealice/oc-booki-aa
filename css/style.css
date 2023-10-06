@@ -210,9 +210,15 @@ form button {
   width: 65%;
 }
 
+.hebergements__cartes {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .hebergements__cartes .card {
   margin-top: 33px;
-  width: 39%;
+  width: 100%;
 }
 
 .hebergements__cartes img {
