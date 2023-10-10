@@ -232,48 +232,48 @@ form button {
   margin-bottom: 33px;
 }
 
-.hebergements__cartes {
+.hebergements__cards {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.hebergements__cartes .card {
+.hebergements__cards .card {
   width: 100%;
 }
 
-.hebergements__cartes img {
+.hebergements__cards img {
   width: 100%;
   height: 100px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.hebergements__cartes .card-content {
+.hebergements__cards .card-content {
   width: 100%;
   padding-left: 15px;
   box-sizing: border-box;
 }
 
-.hebergements__cartes .card-title {
+.hebergements__cards .card-title {
   margin-top: 10px;
   margin-bottom: 4px;
 }
 
-.hebergements__cartes .card-subtitle {
+.hebergements__cards .card-subtitle {
   font-size: 14px;
   margin: 0;
 }
 
-.hebergements__cartes .card-rating {
+.hebergements__cards .card-rating {
   margin-bottom: 5px;
 }
 
-.hebergements__cartes h3 {
+.hebergements__cards h3 {
   font-weight: bold;
 }
 
-.hebergements__cartes .under_card {
+.hebergements__cards .under_card {
   font-size: 18px;
   font-weight: bold;
 }
