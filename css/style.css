@@ -404,6 +404,17 @@ footer p {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  /*FILTERS*/
+  .filters {
+    flex-direction: column;
+  }
+
+  .filters_button:first-child {
+    margin-left: 0;
+  }
+
+  /*HEBERGEMENTS + POPULAIRES*/
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
