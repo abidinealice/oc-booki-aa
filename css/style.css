@@ -445,6 +445,22 @@ footer p {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
+  /*ACTIVITES*/
+
+  .a__cards {
+    height: 90%;
+    width: auto;
+  }
+
+  .a__cards .under-img {
+    margin-top: 0;
+    padding-top: 7px;
+  }
+
+  .activites__cards img {
+    height: 80%;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
