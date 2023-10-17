@@ -165,6 +165,15 @@ form button {
   font-size: 18px;
 }
 
+form button .fa-solid {
+  display: none;
+}
+
+form button p {
+  padding: 0;
+  margin: 0;
+}
+
 /* -------------------- filters */
 
 .filters {
@@ -275,9 +284,10 @@ form button {
   font-weight: bold;
 }
 
-.hebergements__cards .under_card {
+.hebergements .under_card {
   font-size: 18px;
   font-weight: bold;
+  margin: 30px 0 0 0;
 }
 /****** Populaires ***********/
 .populaires {
@@ -469,6 +479,10 @@ footer p {
     margin-left: 0;
     margin-right: 0;
   }
+
+  main {
+    margin: 0;
+  }
   .main-container {
     padding: 0;
   }
@@ -523,6 +537,122 @@ footer p {
 
   .nav__menu ul li a::after {
     content: none;
+  }
+
+  /*MAIN*/
+
+  form {
+    margin-bottom: 0;
+  }
+
+  form .logo-map {
+    padding: 12px;
+  }
+
+  form button {
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #d9d9d9;
+    padding: 10px 12px;
+  }
+
+  form button .fa-solid {
+    display: contents;
+  }
+
+  form button p {
+    display: none;
+  }
+
+  .filters ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .filters ul li:last-child {
+    padding: 16px;
+  }
+
+  .filters ul li {
+    margin: 0;
+  }
+
+  .filters_button p {
+    font-size: 15px;
+  }
+
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+  }
+
+  .hebergements-and-populaires section {
+    border-radius: 0;
+    background-color: white;
+  }
+
+  .hebergements-and-populaires .populaires {
+    margin-top: 0;
+    background-color: var(--main-bg-color);
+  }
+
+  .populaires-cards {
+    flex-direction: column;
+  }
+
+  .populaires-cards a {
+    width: 100%;
+  }
+
+  .hebergements {
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  .hebergements__cards {
+    grid-template-columns: none;
+    gap: 1rem;
+  }
+
+  .hebergements .under_card {
+    margin: 0;
+  }
+
+  .activites__cards {
+    grid-template-columns: none;
+    gap: 0;
+  }
+
+  /**/
+  /*FOOTER*/
+
+  footer {
+    grid-template-columns: none;
+    gap: 10px;
+  }
+
+  .apropos {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .apropos p {
+    margin-bottom: 12px;
+  }
+
+  .noshebergements {
+    margin-left: 20px;
+  }
+
+  .noshebergements p {
+    margin-bottom: 12px;
+  }
+
+  .assistance {
+    margin-left: 20px;
+  }
+
+  .assistance p {
+    margin-bottom: 12px;
   }
 
   /* ... */
