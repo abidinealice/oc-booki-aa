@@ -391,7 +391,7 @@ footer ul {
 }
 
 footer li {
-  margin-top: 8px;
+  margin-top: 13px;
   font-size: 16px;
 }
 
@@ -400,13 +400,13 @@ footer li:last-child {
 }
 
 footer p {
-  margin-bottom: 8px;
+  margin-bottom: 13px;
   font-weight: bold;
   font-size: 18px;
 }
 
 .apropos {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -621,7 +621,6 @@ footer p {
   }
 
   .hebergements {
-    margin-top: 50px;
     padding: 0;
   }
 
@@ -640,6 +639,10 @@ footer p {
 
   .hebergements .under_card {
     margin: 0;
+  }
+
+  .activites {
+    margin-bottom: 25px;
   }
 
   .activites__cards {
