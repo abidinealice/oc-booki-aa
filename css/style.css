@@ -539,10 +539,17 @@ footer p {
     content: none;
   }
 
+  .under-nav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   /*MAIN*/
 
   form {
     margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   form .logo-map {
@@ -563,6 +570,11 @@ footer p {
     display: none;
   }
 
+  .filters {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .filters ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -579,6 +591,11 @@ footer p {
 
   .filters_button p {
     font-size: 15px;
+  }
+
+  .infos {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .hebergements-and-populaires {
@@ -613,13 +630,21 @@ footer p {
     gap: 1rem;
   }
 
+  .hebergements__cards img {
+    height: 130px;
+  }
+
+  .a__cards {
+    height: 220px;
+  }
+
   .hebergements .under_card {
     margin: 0;
   }
 
   .activites__cards {
     grid-template-columns: none;
-    gap: 0;
+    gap: 1rem;
   }
 
   /**/
