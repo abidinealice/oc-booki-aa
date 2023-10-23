@@ -94,7 +94,7 @@ a {
 }
 
 .nav__menu ul li a:hover {
-  color: #0065fc;
+  color: var(--main-color);
 }
 
 .nav__menu ul li a:hover {
@@ -123,15 +123,15 @@ form {
 
 .logo-map {
   padding: 12px;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
 }
 
 form input {
   padding: 10px;
-  border-top: solid 1px #f2f2f2;
-  border-bottom: solid 1px #f2f2f2;
+  border-top: solid 1px var(--main-bg-color);
+  border-bottom: solid 1px var(--main-bg-color);
   border-left: none;
   border-right: none;
   font-weight: bold;
@@ -147,8 +147,8 @@ form ::placeholder {
 form button {
   padding: 10px;
   color: white;
-  background-color: #0065fc;
-  border: solid 1px #0065fc;
+  background-color: var(--main-color);
+  border: solid 1px var(--main-color);
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
   font-weight: bold;
@@ -185,13 +185,13 @@ form button p {
 .filters_button {
   display: flex;
   margin-left: 15px;
-  border: solid 1px #f2f2f2;
+  border: solid 1px var(--main-bg-color);
   border-radius: 30px;
   padding: 16px;
 }
 
 .filters_button:hover {
-  background-color: #deebff;
+  background-color: var(--filter-bg-color);
 }
 
 .filters_button p {
