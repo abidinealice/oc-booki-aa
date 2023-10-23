@@ -97,19 +97,9 @@ a {
   color: #0065fc;
 }
 
-.nav__menu ul li a::after {
-  content: "";
-  position: absolute;
-  background-color: #0065fc;
-  height: 1px;
-  width: 0;
-  bottom: 25px;
-  left: 0;
-  right: 0;
-}
-
-.nav__menu ul li a:hover:after {
-  width: 100%;
+.nav__menu ul li a:hover {
+  border-top: 3px solid var(--main-color);
+  padding-top: 21px;
 }
 
 /* -------------------- BODY --------------------*/
