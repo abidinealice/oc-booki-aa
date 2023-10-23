@@ -524,8 +524,9 @@ footer p {
     justify-content: center;
   }
 
-  .nav__menu ul li a::after {
-    content: none;
+  .nav__menu ul li a:hover {
+    border-top: none;
+    padding-top: 0;
   }
 
   .under-nav {
