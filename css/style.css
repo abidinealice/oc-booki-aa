@@ -206,9 +206,15 @@ form button p {
   margin: 30px 0;
 }
 
+.infos img {
+  height: 100%;
+  padding: 10px 0 10px 10px;
+}
+
 .infos p {
   font-size: 16px;
   margin: 0 0 0 5px;
+  padding: 12px 12px 12px 0;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -586,6 +592,10 @@ footer p {
   .infos {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .infos p {
+    padding: 4px 12px 12px 6px;
   }
 
   .hebergements-and-populaires {
