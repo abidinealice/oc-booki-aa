@@ -64,6 +64,10 @@ a {
 }
 
 /* -------------------- HEADER -------------------- */
+h1{
+    margin: 0;
+    padding: 0;
+}
 
 /* -------------------- menu */
 
@@ -494,6 +498,11 @@ footer h2 {
   }
 
   /*HEADER*/
+
+  h1{
+    margin: auto;
+    padding: 0;
+}
 
   .nav__menu {
     flex-direction: column;
