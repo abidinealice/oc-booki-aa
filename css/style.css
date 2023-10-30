@@ -112,9 +112,10 @@ a {
   margin-top: 50px;
 }
 
-.under-nav p {
+.under-nav h2 {
   font-size: 16px;
   margin-top: 12px;
+  font-weight: normal;
 }
 
 /* -------------------- form */
@@ -340,7 +341,7 @@ form button p {
   padding: 30px;
   margin-bottom: 50px;
 }
-.activites h2 {
+.activites h1 {
   margin-bottom: 33px;
   margin-top: 50px;
   font-size: 22px;
@@ -399,7 +400,7 @@ footer li:last-child {
   margin-bottom: 8px;
 }
 
-footer p {
+footer h2 {
   margin-bottom: 13px;
   font-weight: bold;
   font-size: 18px;
