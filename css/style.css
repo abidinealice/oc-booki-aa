@@ -133,6 +133,10 @@ form {
   border-top-left-radius: 8px;
 }
 
+.logo-map .fa-solid{
+    color: #000205;
+}
+
 form input {
   padding: 10px;
   border-top: solid 1px var(--main-bg-color);
@@ -162,6 +166,7 @@ form button {
 
 form button .fa-solid {
   display: none;
+  color: #ffffff;
 }
 
 form button p {
