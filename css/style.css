@@ -169,7 +169,7 @@ form button .fa-solid {
   color: #ffffff;
 }
 
-form button p {
+form bouton {
   padding: 0;
   margin: 0;
 }
@@ -572,7 +572,7 @@ footer h2 {
     display: contents;
   }
 
-  form button p {
+  form .boutonR {
     display: none;
   }
 
